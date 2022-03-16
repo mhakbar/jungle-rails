@@ -5,6 +5,8 @@
   </header>
 
   <div class="order-summary jumbotron">
+    <div>Customer Email: <%= @order.email %></div>
+    <%= render 'item' %>
     <h4>Thank you for your order!</h4>
   </div>
 
